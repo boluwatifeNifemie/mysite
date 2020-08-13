@@ -1,0 +1,181 @@
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #45b29a;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Parisienne', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  color: #45b29a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #86c4ba;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 6px;
+  width: 4%;
+  margin: 80px auto;
+
+}
+
+a:link {
+  color: #45b29a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #86c4ba;
+  text-decoration: none;
+}
+
+a:active {
+  color: #86c4ba;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #86c4ba;
+  text-decoration: none;
+}
+
+/****************************CLASS SELECTORS*****************/
+
+.top-container {
+  background-color: #dcfffa;
+  position: relative;
+  padding-top: 130px;
+}
+
+.tag {
+  color: #45b29a;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.5rem;
+}
+
+.middle-container {
+  margin: 50px;
+}
+
+.profile {
+  width: 30%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.monitor-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.web-dev-desc {
+  padding-top: 20px;
+}
+
+
+
+.seo-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+
+.contact-me {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.btn {
+  background: #45b29a;
+  background-image: -webkit-linear-gradient(top, #45b29a, #216b5a);
+  background-image: -moz-linear-gradient(top, #45b29a, #216b5a);
+  background-image: -ms-linear-gradient(top, #45b29a, #216b5a);
+  background-image: -o-linear-gradient(top, #45b29a, #216b5a);
+  background-image: linear-gradient(to bottom, #45b29a, #216b5a);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #216b5a;
+  background-image: -webkit-linear-gradient(top, #216b5a, #45b29a);
+  background-image: -moz-linear-gradient(top, #216b5a, #45b29a);
+  background-image: -ms-linear-gradient(top, #216b5a, #45b29a);
+  background-image: -o-linear-gradient(top, #216b5a, #45b29a);
+  background-image: linear-gradient(to bottom, #216b5a, #45b29a);
+  text-decoration: none;
+}
+
+.mail-button {
+  margin: 50px;
+}
+
+.bottom-container {
+  background-color: #dcfffa;
+  padding: 50px;
+  margin-top: 30px;
+  line-height: 2;
+}
+
+.footer-note {
+  color: #45b29a;
+}
+
+.footer-name {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 100px;
+  right: 150px;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 350px;
+  left: 200px;
+}
+
+
+/************************* ID Selectors                 **/
+
+#profile-pic {
+  border-radius: 100%;
+  width: 50%;
+}
